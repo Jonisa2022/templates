@@ -17,6 +17,18 @@
 
 * Describe new data types created for the data passed to or returned by resources in the interface
 * Describe also any constants defined in the interface to hold commonly-used values that make programming against the interface more convenient.
+* The following data types are created for the data passed to or returned by resources in the interface:
+* `int`: A signed integer value.
+* `float`: A floating-point number.
+* `string`: A sequence of characters.
+* `bool`: A boolean value.
+The following constants are defined in the interface:
+* `MAX_INT`: The maximum value for an `int`.
+* `MIN_INT`: The minimum value for an `int`.
+* `MAX_FLOAT`: The maximum value for a `float`.
+* `MIN_FLOAT`: The minimum value for a `float`.
+* `MAX_STRING_LENGTH`: The maximum length for a `string`.
+These data types and constants are used to make programming against the interface more convenient.
 
 ## Error Handling
 
